@@ -9723,21 +9723,32 @@ ul li {
 .callout {
   text-align: center;
 }
-/* line 4, ../scss/layout/_callout.scss */
+/* line 6, ../scss/layout/_callout.scss */
 .callout h4 {
   font-size: 1rem;
 }
-/* line 8, ../scss/layout/_callout.scss */
+/* line 11, ../scss/layout/_callout.scss */
 .callout.co-dark h3, .callout.co-dark h4 {
   color: #555555;
 }
-/* line 12, ../scss/layout/_callout.scss */
+/* line 16, ../scss/layout/_callout.scss */
 .callout.co-light {
   min-height: 450px;
 }
-/* line 14, ../scss/layout/_callout.scss */
+/* line 19, ../scss/layout/_callout.scss */
 .callout.co-light h3, .callout.co-light h4 {
   color: #FFFFFF;
+}
+
+/* line 26, ../scss/layout/_callout.scss */
+.quote h3 {
+  font-size: 2rem;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 26, ../scss/layout/_callout.scss */
+  .quote h3 {
+    font-size: 4rem;
+  }
 }
 
 /* line 1, ../scss/layout/_menu.scss */
@@ -9745,18 +9756,18 @@ ul li {
   margin-top: 4rem;
 }
 
-/* line 6, ../scss/layout/_menu.scss */
+/* line 7, ../scss/layout/_menu.scss */
 .menu-group .panel {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 11, ../scss/layout/_menu.scss */
+/* line 12, ../scss/layout/_menu.scss */
 .menu-group .panel .slick {
   margin-bottom: 1rem;
 }
-/* line 16, ../scss/layout/_menu.scss */
+/* line 17, ../scss/layout/_menu.scss */
 .menu-group .item-list li {
   color: #FFFFFF;
 }

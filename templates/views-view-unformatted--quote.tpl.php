@@ -10,12 +10,8 @@
 <?php if (!empty($title)): ?>
   <h3><?php print $title; ?></h3>
 <?php endif; ?>
-<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 menu-group" data-equalizer data-options="equalize_on_stack: true">
 <?php foreach ($rows as $id => $row): ?>
-  <li data-equalizer-watch>
-    <div class="panel">
+  <div class="small-centered small-12 medium-10 columns">
     <?php print $row; ?>
-    </div>
-  </li>
+  </div>
 <?php endforeach; ?>
-</ul>
